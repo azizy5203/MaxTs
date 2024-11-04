@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "ESNext",
+    // "target": "es2016",
+    "module": "AMD",
     "rootDir": "./src",
     "outFile": "./src/main.js", // Specify a single output file
     "sourceMap": true,
