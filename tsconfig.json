@@ -1,13 +1,18 @@
 {
   "compilerOptions": {
-    // "target": "es2016",
+    "target": "ESNext",
     "module": "AMD",
+    // "lib": ["DOM",],
     "rootDir": "./src",
-    "outFile": "./src/main.js", // Specify a single output file
+    "outDir": "./dist",
     "sourceMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "removeComments": true,
+    "noEmitOnError": true
+    // "isolatedModules": true
+    // "downlevelIteration": true,
   }
 }
